@@ -168,7 +168,7 @@ def main():
 
 
     for epoch in range(config.NUM_EPOCHS):
-        plot_couple_examples(model, train_loader, 0.7, 0.5, scaled_anchors)
+        #plot_couple_examples(model, train_loader, 0.7, 0.5, scaled_anchors)
         print(f"Currently epoch {epoch}")
 
         if config.TRAIN_WHAT=="bac_obj":
