@@ -15,7 +15,7 @@ def get_args_parser(add_help=True):
     parser.add_argument('--data-path', default='./VOC', type=str, help='path of dataset')
     parser.add_argument('--epoch', default=200, type=int, help='epoch num')
     parser.add_argument('--batch', default=16, type=int, help='batch num')
-    parser.add_argument('--load', default="checkpoint_final.pth", type=str, help='load model')
+    parser.add_argument('--load', default="", type=str, help='load model')
     parser.add_argument('--trainwhat', default="bac_obj", type=str, help='train "seg"  or "bac_obj" or "fix_bac"' )
     parser.add_argument('--fixbac', default="n", type=str, help='fix bacbone, "tt"' )
 
