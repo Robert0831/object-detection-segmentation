@@ -14,3 +14,7 @@ python train_run.py --trainwhat bac_obj --fixbac tt --data-path ./VOC --batch 16
 For segmentation
 
 python train_run.py --trainwhat seg --fixbac tt --data-path ./ADE --batch 8 --epoch 6 
+
+Test
+----------------------------------------------------------------------------
+Run test_ob.py to test accuracy
